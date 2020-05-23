@@ -10,6 +10,11 @@ body{
 	color: white;
 	max-width: 97%;
 }
+.news-section{
+	width: 92%;
+}
+
+
 .weather-icon{
 	width: 24px;
 	height: 24px;
@@ -20,6 +25,11 @@ body{
 }
 .center{
 	width:396px;
+}
+
+.image{
+	width:20px;
+	height: 20px;
 }
 .center img{
 	width: 100%;
@@ -56,9 +66,8 @@ body{
     /*-webkit-mask: url(https://g.newsweek.com/www/images/icon-arrow-right.svg) center / contain no-repeat;*/
     margin-left: 9px
 }
-.page-nav div{
-	border-right: 1px #ccc solid;
-	margin: 0 7px;
+.page-nav{
+	width: 96%;
 }
 
 .page-nav div a{
@@ -98,6 +107,7 @@ body{
 
 input{
 	border: none;
+	width: 60px;
 }
 
 
