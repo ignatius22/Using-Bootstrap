@@ -2,6 +2,7 @@ body{
 	margin: 0;
 	padding: 0;
 	background-color: #f4f5f6;
+
 }
 
 .header{
@@ -55,6 +56,48 @@ body{
     /*-webkit-mask: url(https://g.newsweek.com/www/images/icon-arrow-right.svg) center / contain no-repeat;*/
     margin-left: 9px
 }
+.page-nav div{
+	border-right: 1px #ccc solid;
+	margin: 0 7px;
+}
 
+.page-nav div a{
+	font-size: 19px;
+    line-height: 24px;
+    font-weight: bold;
+    font-family: "Roboto Condensed",sans-serif;
+    text-decoration: none;
+    color: black;
+    
+}
+
+.nav-page {
+	position: relative;
+	background: white;
+	width: 97%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    z-index: 1;
+    border-bottom-color: #f4f5f6;
+
+}
+
+.nav-page::before{
+	position: absolute;
+    top: 0;
+    right: 0;
+    content: "";
+    display: block;
+    width: 80px;
+    background-color: #f72210;
+    border-left: 12px solid white;
+    border-top: 13px solid #f72210;
+}
+
+input{
+	border: none;
+}
 
 
