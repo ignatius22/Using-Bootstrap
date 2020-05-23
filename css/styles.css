@@ -1,4 +1,60 @@
 body{
 	margin: 0;
 	padding: 0;
+	background-color: #f4f5f6;
 }
+
+.header{
+	background-color: #f72210;
+	color: white;
+	max-width: 97%;
+}
+.weather-icon{
+	width: 24px;
+	height: 24px;
+}
+
+.weather-icon img{
+	width: 100%;
+}
+.center{
+	width:396px;
+}
+.center img{
+	width: 100%;
+}
+.login-btn{
+	background-color: #f72310;
+	border: none;
+	outline: none;
+    color: white;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+
+.add-btn{
+	font-size: 18px;
+    line-height: 27px;
+    padding-left: 9px;
+    border: none;
+    border-radius: 3px;
+    padding-right: 9px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    background-color: #ffe400;
+    color: black;
+}
+
+.add-btn::after{
+	content: url('../resources/white.png');
+    display: inline-block;
+    width: 6px;
+    height: 11px;
+    
+    /*-webkit-mask: url(https://g.newsweek.com/www/images/icon-arrow-right.svg) center / contain no-repeat;*/
+    margin-left: 9px
+}
+
+
+
