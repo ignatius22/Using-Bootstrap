@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <div class="wrapper">
+    <div class="wrapper ">
         <header class="container-fluid header p-2">
             <div class="container-fluid d-flex  align-items-center justify-content-between">
                 <div class="left d-flex flex-column align-items-center p-2">
@@ -29,35 +29,35 @@
                 <div class="center mt-2">
                     <img class="ml-5" src="resources/header.svg" alt="header image">
                 </div>
-                <div class="right mt-4">
+                <div class="right mt-4 d-none d-lg-block">
                     <button class="login-btn mr-3 pl-1 pr-1 mb-1 text-uppercase font-weight-bold ">Login</button>
                     <button class="add-btn text-uppercase font-weight-bold">try news week ad free</button>
                 </div>
             </div>
         </header>
-        <nav class="container-fluid nav-page ">
+        <nav class="container-fluid nav-page navbar navbar-expand-lg d-none d-lg-block">
             <div class="page-nav d-flex justify-content-around text-capitalize">
-                <div><a href="#">us</a></div>
-                <div><a href="#">world</a></div>
-                <div><a href="#">business</a></div>
-                <div><a href="#">tech & science</a></div>
-                <div><a href="#">culture</a></div>
-                <div><a href="#">newsgeeks</a></div>
-                <div><a href="#">sport</a></div>
-                <div><a href="#">health</a></div>
-                <div><a href="#">the debate</a></div>
-                <div><a href="#">vintage</a></div>
-                <div class="d-flex align-items-center justify-content-around"><a href="#">weather</a>
-                    <input class="ml-2" type="search" placeholder="search">
-                    <div class="image">
-                        <img src="resources/search.svg" alt="">
-                    </div>
-                </div>
+                  <div><a href="#">us</a></div>
+                  <div><a href="#">world</a></div>
+                  <div><a href="#">business</a></div>
+                  <div><a href="#">tech & science</a></div>
+                  <div><a href="#">culture</a></div>
+                  <div><a href="#">newsgeeks</a></div>
+                  <div><a href="#">sport</a></div>
+                  <div><a href="#">health</a></div>
+                  <div><a href="#">the debate</a></div>
+                  <div><a href="#">vintage</a></div>
+                  <div class="d-flex align-items-center justify-content-around"><a href="#">weather</a>
+                      <input class="ml-2" type="search" placeholder="search">
+                      <div class="image">
+                          <img src="resources/search.svg" alt="">
+                      </div>
+                  </div>
             </div>
         </nav>
         <div class="container-fluid news-section">
             <div class="row">
-                <div class="feature-stories2 row row-cols-2 row-cols-md-2">
+                <div class="feature-stories2 row col-md-6">
                     <div class="top-story col">
                         <div class="card">
                             <img src="..." class="card-img-top" alt="...">
@@ -79,15 +79,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="the debate col">
-                    <div class="card">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
+                <div class="the debate col-md-6">
+                    <div class="media">
+  <img src="..." class="mr-3" alt="...">
+  <div class="media-body">
+    <h5 class="mt-0">Media heading</h5>
+    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+  </div>
+</div>
                 </div>
             </div>
         </div>
