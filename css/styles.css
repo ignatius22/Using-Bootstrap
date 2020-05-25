@@ -1,57 +1,85 @@
-body{
-	margin: 0;
-	padding: 0;
-	background-color: #f4f5f6;
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f5f6;
 
 }
 
-    .header{
-       background-color: #f72210;
-       color: red 
-    }
-    
-    .user, .list{
-        width: 30px;
-        height: 30px;
-    }
-    .right{
-        width: 100%;
-    }
-   .image{
+.header {
+    background-color: #f72210;
+    color: red
+}
+
+.user,
+.list {
+    width: 30px;
+    height: 30px;
+}
+
+.right {
+    width: 100%;
+}
+
+.image {
     width: 132px;
 
-   }
-    .photo{
-        width: 100%;
-    }
-    .card-class{
-        position: relative;
-    }
+}
 
-    .usa{
-        width: 58px;
-        height: 33px;
-        background: #ccc;
-        border: 1px #ccc solid;
-        text-align: center;
-        position: absolute;
-        bottom: 0;
-    }
-    .usa a{
-        text-transform: uppercase;
-        text-decoration:none;
-        color: #f72210;
-        font-weight: bold;
-    }
+.photo {
+    width: 100%;
+}
 
-    .block-title {
-    font: bold 16px/16px "Roboto Condensed",sans-serif;
+
+.card-class {
+    width: 100%;
+}
+
+.usa {
+    width: 58px;
+    height: 33px;
+    background: #ccc;
+    border: 1px #ccc solid;
+    text-align: center;
+    position: relative;
+    bottom: 33px;
+    
+
+}
+
+.h2 {
+    display: block;
+    font-size: 22px;
+    line-height: 24px;
+    position: relative;
+    bottom: 20px;
+    width:291px;
+    
+}
+
+
+.usa a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #f72210;
+    font-weight: bold;
+
+}
+
+.block-title {
+    font: bold 16px/16px "Roboto Condensed", sans-serif;
     text-transform: uppercase;
     padding-bottom: 11px;
-    color: rgba(3,3,3,.4)
+    color: rgba(3, 3, 3, .4);
+    width: 100%;
+
 }
-    .trial-btn {
-    font: bold 13px/20px "Roboto Condensed",sans-serif;
+
+.h2 {
+    width: 100%;
+}
+
+.trial-btn {
+    font: bold 13px/20px "Roboto Condensed", sans-serif;
     cursor: pointer;
     text-transform: uppercase;
     display: inline;
