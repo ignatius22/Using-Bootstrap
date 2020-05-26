@@ -182,7 +182,10 @@ input {
     height: 11px;
     margin-left: 9px;
 }
-
+.nav-bar a{
+    text-decoration: none;
+    color: black;
+}
 
 
 .temp,
@@ -195,7 +198,17 @@ input {
 }
 
 
+.navigation{
+    width: 100%;
+}
+.nav-bar{
+    width: 100%;
+}
 
+.search{
+    width: 30px;
+    height: 30px;
+}
 
 /*==================================================================*/
 /*custom media queries*/
@@ -209,11 +222,11 @@ input {
         padding-top: 20px;
         padding-bottom: 12px;
     }
-
+    
 
 }
 
-@media (min-width: 1104px) {
+@media (min-width: 1198px) {
 
     .header-2,
     .header-3 {
@@ -223,11 +236,16 @@ input {
 
 
 
-@media (min-width: 1200px) {
+@media (min-width: 1350px) {
 
     .header-2,
     .header-3 {
-        width: 97%;
+        width: 98%;
     }
 
 }
+
+
+
+
+
