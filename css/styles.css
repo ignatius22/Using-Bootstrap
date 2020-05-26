@@ -58,6 +58,7 @@ body {
 
 .card-class {
     width: 100%;
+    
 }
 
 .usa {
@@ -86,6 +87,15 @@ body {
 .nav-bar {
     width: 100%;
 }
+
+
+.top-story-text{
+    width: 435px;
+    height: 36px;
+    font-size: 13px;
+    margin-top: -20px;
+}
+
 
 
 .input {
@@ -131,10 +141,12 @@ body {
     color: rgba(3, 3, 3, .4);
     width: 100%;
 
+
 }
 
 .h2 {
     width: 100%;
+    color: black;
 }
 
 .trial-btn {
