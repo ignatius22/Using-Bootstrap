@@ -211,6 +211,45 @@ body {
     font-weight: 700;
 }
 
+.picture img{
+    width: 100%;
+}
+
+
+.info .title a{
+    font: bold 16px/19px "Roboto Condensed",sans-serif;
+    color: rgba(3,3,3,.5);
+}
+
+
+.picture{
+      position: relative;
+  
+}
+
+.newsletter{
+    max-width: 300px;
+    height: 39vh;
+    margin: 0 auto 30px;
+    border: 1px solid #e5e5e5;
+    background-color: #f4f5f6;
+    padding: 20px;
+}
+
+.pandemic-badge a{
+    position: absolute;
+    bottom: 0;
+    text-decoration: none;
+    background-color: #c2d4d7;
+    text-transform: uppercase;
+    font: bold 13px/20px "Roboto condensed",Arial,sans-serif;
+    padding-left: 6px;
+    padding-right: 6px;
+    color: #333;
+}
+
+
+
 .byline-option {
     color: #555;
     text-transform: uppercase;
