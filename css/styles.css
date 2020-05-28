@@ -151,14 +151,18 @@ body {
 }
 
 
-.top-story-text{
+.top-story-text-1{
     width: 435px;
     height: 36px;
     font-size: 13px;
     margin-top: -20px;
 }
 
-
+.top-story-text{
+     width: 435px;
+    height: 36px;
+    font-size: 13px;
+}
 
 .input {
     width: 100px;
@@ -177,14 +181,41 @@ body {
     border-top: 13px solid #f72210;
 }
 
-.h2 {
+.related li{
+    list-style: none;
+}
+
+.related li a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+
+.h2 a{
     display: block;
     font-size: 22px;
     line-height: 24px;
     position: relative;
     bottom: 20px;
-    width: 291px;
+    text-decoration-color: red;
+    color: black;
+    font-weight: 700;
+}
 
+.h3 a{
+       display: block;
+    font-size: 16px;
+    line-height: 21px;
+    text-decoration-color: red;
+    color: black;
+    font-weight: 700;
+}
+
+.byline-option {
+    color: #555;
+    text-transform: uppercase;
+    margin-top: 4px;
+    font: bold 14px/21px "Roboto Condensed",sans-serif;
 }
 
 
@@ -200,11 +231,10 @@ body {
     font: bold 16px/16px "Roboto Condensed", sans-serif;
     text-transform: uppercase;
     padding-bottom: 11px;
-r   color: rgba(3, 3, 3, .4);
+ color: rgba(3, 3, 3, .4);
     width: 100%;
 }
 
-r
 .headsot img{
     width: 63px;
     height: 63px;
