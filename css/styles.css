@@ -103,6 +103,44 @@ body {
     width: 100%;
 }
 
+
+ .main{
+    background-color: white;
+    width: 97%;
+}
+
+/* .grouped-two--col{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto;
+
+}
+.group--1{
+    order: 2;
+    
+}
+
+.pandemic-group{
+    width: 100%;
+}
+
+.heroes-0f-pandemic{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    grid-gap: 1em;
+}
+.culture-travel{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1em;
+}
+
+.group--2{
+    order: 1;
+} */ */
+
+
 .nav-item {
     margin: 0;
 }
@@ -152,8 +190,7 @@ body {
 
 
 .top-story-text-1{
-    width: 435px;
-    height: 36px;
+    width: 100%;
     font-size: 13px;
     margin-top: -20px;
 }
@@ -345,6 +382,8 @@ body {
     width: 91.15px;
     padding-bottom: 2px;
 }
+
+
 
 
 .login {
