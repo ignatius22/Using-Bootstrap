@@ -28,10 +28,24 @@ body {
     background-color: #000;
     color: #d6d6d6;
     border-radius: 50%;
-    font: bold 14px/32px "Roboto Condensed",sans-serif;
     text-align: center;
     margin: 6px auto;
 }
+
+
+.lk {
+    display: block;
+    background-color: #f4f5f6;
+    color: black;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.magazine-title,.c-vs {
+    font: bold 19px/19px "Roboto Condensed",sans-serif;
+}
+
+
 .deco{
     position: relative;
 }
@@ -412,6 +426,11 @@ body {
     height: 24px;
 }
 
+.col-3 img{
+    width: 100%;
+    height: 50vh;
+}
+
 .location::after {
     content: url("../resources/white-arrow.svg");
     display: inline-block;
@@ -421,7 +440,7 @@ body {
 }
 
 
-.trial::after {
+.trial::after, .lk::after {
     content: url("../resources/icon-arrow-right.svg");
     display: inline-block;
     width: 6px;
