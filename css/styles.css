@@ -402,8 +402,7 @@ body {
   font-weight: bold;
   font-size: 0;
   font-family: 'Roboto Condensed', sans-serif;
-  background: url('../resources/free-sign-up.svg') center/108px no-repeat
-    #f61602;
+  background: url('../resources/free-sign-up.svg') center/108px no-repeat #f61602;
   border-radius: 3px;
 }
 
@@ -419,6 +418,25 @@ body {
   
 }
 
+
+.copyright {
+    font-size: 12px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #666;
+    margin-bottom: 12px;
+}
+
+.social-link div img{
+
+  width: 26px;
+  height: 24px;
+  margin-left: 12px;
+}
+
+.logo img{
+  width: 246px;
+}
 
 
 .text-input {
