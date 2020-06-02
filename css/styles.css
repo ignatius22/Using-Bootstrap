@@ -631,22 +631,13 @@ h5 a {
   font-weight: 700;
 }
 
-.leaf{
-  width: 80.2px;
-}
 
-.menu .leaf{
-  width: 100px;
-}
-.menu .leaf a{
-  width: 100%;
-}
 
-.first{
-  width: 68px;
-}
-.ed{
-  width: 120px;
+.menu li a{
+  font-size: 14px;
+  font-weight: normal;
+  color: #666;
+  
 }
 
 .trial {
