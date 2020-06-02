@@ -2,7 +2,7 @@
 
 > A clone of The Newsweek website.
 
-![](images/Screenshot.png)
+![](screenshot.png)
 
 This page is a basic clone of The Newsweek website, this project has been an exercise of using bootstrap. the main purpose of this project has been to build responsive design using bootstrap and to aquire further practice on using css frameworks such as bootstrap. 
 
@@ -10,7 +10,7 @@ This page is a basic clone of The Newsweek website, this project has been an exe
 
 - HTML5
 - CSS3
-
+- BOOTSTRAP
 
 ## Live Demo
 
@@ -19,14 +19,11 @@ Live link here: https://rawcdn.githack.com/ignatius22/Responsive_Design/7ffbf941
 
 ## Authors
 
-👤 **Author1**
+👤 **Author**
 Ignatius Sani:
 - Github: https://github.com/ignatius22 
 - Linkedin: https://www.linkedin.com/in/ignatius-sani-982b8b186/  
 
-👤 **Author2**
-Jacob Rees:
-- Github: https://github.com/jacobrees
-- Linkedin: https://www.linkedin.com/in/jacob-rees-a6507b1a6/
+
 
 
