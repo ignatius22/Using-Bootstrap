@@ -451,7 +451,7 @@ h5 a {
 }
 
 .bg {
-  background-image: url('/resources/starting5-homepage.png');
+  background-image: url('../resources/starting5-homepage.png');
   background-repeat: no-repeat;
   background-size: 100% 61vh;
 }
