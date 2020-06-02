@@ -1,18 +1,15 @@
 * {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    border: 0 none;
-    list-style: none outside none;
-    margin: 0;
-    outline: 0 none;
-    padding: 0;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 0 none;
+  list-style: none outside none;
+  margin: 0;
+  outline: 0 none;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
-
-
-
 
 body {
   margin: 0;
@@ -30,9 +27,79 @@ body {
   padding-top: 10px;
   padding-bottom: 4px;
 }
+
 .debate-item2 {
   border-bottom: 4px solid #1c87fb;
   padding-bottom: 12px;
+}
+
+h5 a {
+  font: bold 20px/26px 'Roboto Condensed', sans-serif;
+  line-height: 20px;
+  color: black;
+  text-decoration: none;
+  text-decoration-color: red;
+}
+
+.h2 a {
+  display: block;
+  font-size: 22px;
+  line-height: 24px;
+  position: relative;
+  bottom: 20px;
+  text-decoration-color: red;
+  color: black;
+  font-weight: 700;
+}
+
+.category,
+.cat a {
+  font: bold 16px/26px 'Roboto Condensed', sans-serif;
+  color: #f72210;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.block-title,
+.block-title a {
+  font: bold 16px/16px 'Roboto Condensed', sans-serif;
+  text-transform: uppercase;
+  padding-bottom: 11px;
+  color: rgba(3, 3, 3, 0.4);
+  width: 100%;
+}
+
+.usa a,
+.t-badge a,
+.c-badge a,
+.h-badge a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #f72210;
+  font-weight: bold;
+}
+
+.pandemic-badge a {
+  position: absolute;
+  bottom: 0;
+  text-decoration: none;
+  background-color: #c2d4d7;
+  text-transform: uppercase;
+  font: bold 13px/20px 'Roboto condensed', Arial, sans-serif;
+  padding-left: 6px;
+  padding-right: 6px;
+  color: #333;
+}
+
+.h3 a {
+  display: block;
+  font-size: 16px;
+
+  /* line-height: 21px; */
+  text-decoration-color: red;
+  color: black;
+  font-weight: 700;
 }
 
 .c-vs {
@@ -47,12 +114,84 @@ body {
   margin: 6px auto;
 }
 
+.nav-bar a {
+  text-decoration: none;
+  color: black;
+}
+
+.block-title--1 a {
+  font-size: 23px;
+  font-weight: bold;
+  color: #f61602;
+}
+
+.h5 a {
+  font-size: 20px;
+  color: #000;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+}
+
+.title a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+
+.m-badge a {
+  position: absolute;
+  bottom: 0;
+  text-decoration: none;
+  background-color: #c2d4d7;
+  text-transform: uppercase;
+  font: bold 18px/20px 'Roboto condensed', Arial, sans-serif;
+  color: red;
+}
+
+.f-badge a {
+  position: absolute;
+  bottom: 0;
+  text-decoration: none;
+  background-color: red;
+  text-transform: uppercase;
+  font: bold 18px/20px 'Roboto condensed', Arial, sans-serif;
+  color: white;
+}
+
+.menu li a {
+  font-size: 14px;
+  font-weight: normal;
+  color: #666;
+}
+
+.related li a {
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+}
+
+.info .title a {
+  font: bold 16px/19px 'Roboto Condensed', sans-serif;
+  color: rgba(3, 3, 3, 0.5);
+}
+
+.h5 a:hover {
+  text-decoration: underline #f72210;
+}
+
+.title a:hover {
+  color: red;
+}
+
 .lk {
   display: block;
   background-color: #f4f5f6;
   color: black;
   text-align: center;
   margin-bottom: 0;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'Roboto condensed', Arial, sans-serif;
 }
 
 .magazine-title,
@@ -62,16 +201,6 @@ body {
 
 .deco {
   position: relative;
-}
-
-.title a {
-  text-decoration: none;
-  color: black;
-  font-weight: 700;
-}
-
-.title a:hover {
-  color: red;
 }
 
 .deco::after,
@@ -92,7 +221,6 @@ body {
 .by {
   font-weight: normal;
   color: #555;
-
   font-size: 14px;
 }
 
@@ -137,37 +265,7 @@ body {
   width: 97%;
 }
 
-/* .grouped-two--col{
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: auto;
-
-}
-.group--1{
-    order: 2;
-    
-}
-
-.pandemic-group{
-    width: 100%;
-}
-
-.heroes-0f-pandemic{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: auto;
-    grid-gap: 1em;
-}
-.culture-travel{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-gap: 1em;
-}
-
-.group--2{
-    order: 1;
-} */
-*/ .nav-item {
+.nav-item {
   margin: 0;
 }
 
@@ -186,11 +284,6 @@ body {
 
 .card-class {
   width: 100%;
-}
-
-.img-1 img{
-    width: 100%;
-
 }
 
 .usa {
@@ -243,148 +336,81 @@ body {
   border-top: 13px solid #f72210;
 }
 
-.related li {
-  list-style: none;
-}
-
-.related li a {
-  text-decoration: none;
-  color: black;
-  font-size: 13px;
-}
-
-.h2 a {
-  display: block;
-  font-size: 22px;
-  line-height: 24px;
-  position: relative;
-  bottom: 20px;
-  text-decoration-color: red;
-  color: black;
-  font-weight: 700;
-}
-
-.h3 a {
-  display: block;
-  font-size: 16px;
-  /* line-height: 21px; */
-  text-decoration-color: red;
-  color: black;
-  font-weight: 700;
-}
-
 .picture img {
   width: 100%;
 }
 
-.info .title a {
-  font: bold 16px/19px 'Roboto Condensed', sans-serif;
-  color: rgba(3, 3, 3, 0.5);
+.related li {
+  list-style: none;
 }
 
-.infos p{
-
-  width:143px ;
+.infos p {
+  width: 143px;
   font-size: 15px;
   font-weight: normal;
 }
 
-.infos{
+.infos {
   height: 100%;
-
 }
 
-
-.lead{
+.lead {
   font-size: 16px;
   font-weight: normal;
 }
 
-.gray{
+.gray {
   background-color: #f4f5f6;
-
 }
 
-
-
-
-
-
- .pelcro-subscribe-button {
-    position: relative;
-    font: bold 18px/18px "Roboto Condensed",sans-serif;
-    cursor: pointer;
-    background-color: #f72310;
-    color: white;
-    text-transform: uppercase;
-    display: inline-block;
-    padding: 10px 10px 10px 12px;
-    border-radius: 3px;
+.pelcro-subscribe-button {
+  position: relative;
+  font: bold 18px/18px 'Roboto Condensed', sans-serif;
+  cursor: pointer;
+  background-color: #f72310;
+  color: white;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 10px 10px 10px 12px;
+  border-radius: 3px;
 }
-
-
-
 
 .picture {
   position: relative;
 }
 
-.free-signup input{
+.free-signup input {
   width: 100%;
- 
 }
 
-
-.photo-1 img{
+.photo-1 img {
   width: 90%;
 }
 
-.photo-1{
+.photo-1 {
   width: 100%;
 }
 
-.h5 a{
-  font-size: 20px;
-  color: #000;
-  font-family: 'Roboto Condensed', sans-serif;
-  font-weight: bold;
-
-}
-
-.block-title--1 a{
-  font-size: 23px;
-  font-weight: bold;
-  color: #f61602;
-}
-
-
-
-.imag img{
+.imag img {
   width: 100%;
   margin-left: 16px;
   height: 100%;
-  
 }
 
 .block-title1 {
-    font: bold 16px/16px "Roboto Condensed",sans-serif;
-    text-transform: uppercase;
-    padding-bottom: 11px;
-     color: #f72210;
-}
-
-.h5 a:hover{
-      text-decoration: underline #f72210;
+  font: bold 16px/16px 'Roboto Condensed', sans-serif;
+  text-transform: uppercase;
+  padding-bottom: 11px;
+  color: #f72210;
 }
 
 .subscribe-block {
-    line-height: 28px;
-    margin-bottom: 15px;
-    font-size: 24px;
-    color: black;
-    font-weight: bold;
+  line-height: 28px;
+  margin-bottom: 15px;
+  font-size: 24px;
+  color: black;
+  font-weight: bold;
 }
-
 
 .newsletter {
   max-width: 300px;
@@ -418,96 +444,80 @@ body {
   font-weight: bold;
   font-size: 0;
   font-family: 'Roboto Condensed', sans-serif;
-  background: url('../resources/free-sign-up.svg') center/108px no-repeat #f61602;
+  background:
+    url('../resources/free-sign-up.svg') center/108px no-repeat
+    #f61602;
   border-radius: 3px;
 }
 
-.bg{
+.bg {
   background-image: url('/resources/starting5-homepage.png');
   background-repeat: no-repeat;
-  background-size:  100% 61vh;
-  
+  background-size: 100% 61vh;
 }
 
-.con2,.menu{
+.con2,
+.menu {
   width: 100%;
-  
 }
-ul{
+
+ul {
   margin: 0;
   padding: 0;
 }
 
- .footer-links {
-    padding-left: 8px;
-    border-top: 1px solid #d9d9d9;
-    padding-top: 6px;
-    font-size: 14px;
-    line-height: 15px;
-    color: #666;
+.footer-links {
+  padding-left: 8px;
+  border-top: 1px solid #d9d9d9;
+  padding-top: 6px;
+  font-size: 14px;
+  line-height: 15px;
+  color: #666;
 }
 
 .copyright {
-    font-size: 12px;
-    line-height: 12px;
-    text-transform: uppercase;
-    color: #666;
-    margin-bottom: 12px;
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #666;
+  margin-bottom: 12px;
 }
 
-.social-link div img{
+.img-1 img {
+  width: 100%;
+}
 
+.logo img {
+  width: 246px;
+}
+
+.headsot img {
+  width: 63px;
+  height: 63px;
+}
+
+.m-item img {
+  width: 100%;
+  height: 50vh;
+}
+
+.us-img img {
+  width: 100%;
+}
+
+.social-link div img {
   width: 26px;
   height: 24px;
   margin-left: 12px;
 }
 
-.logo img{
-  width: 246px;
-}
-
-
 .text-input {
   color: #555;
   font-size: 14px;
-  font-family: 'Helvetica', sans-serf;
+  font-family: 'Helvetica', sans-serif;
   background-color: white;
   border: 1px solid #e0e1e1;
   text-indent: 9px;
-}
-
-.pandemic-badge a {
-  position: absolute;
-  bottom: 0;
-  text-decoration: none;
-  background-color: #c2d4d7;
-  text-transform: uppercase;
-  font: bold 13px/20px 'Roboto condensed', Arial, sans-serif;
-  padding-left: 6px;
-  padding-right: 6px;
-  color: #333;
-}
-
-.m-badge a {
-  position: absolute;
-  bottom: 0;
-  text-decoration: none;
-  background-color: #c2d4d7;
-  text-transform: uppercase;
-  font: bold 18px/20px 'Roboto condensed', Arial, sans-serif;
-
-  color: red;
-}
-
-.f-badge a {
-  position: absolute;
-  bottom: 0;
-  text-decoration: none;
-  background-color: red;
-  text-transform: uppercase;
-  font: bold 18px/20px 'Roboto condensed', Arial, sans-serif;
-
-  color: white;
 }
 
 .c-badge,
@@ -529,18 +539,10 @@ ul{
   width: 28%;
   height: 33px;
 }
+
 .c-badge {
   width: 35%;
   height: 33px;
-}
-
-.category,
-.cat a {
-  font: bold 16px/26px 'Roboto Condensed', sans-serif;
-  color: #f72210;
-  text-transform: uppercase;
-  margin-top: 10px;
-  margin-bottom: 10px;
 }
 
 .category span:first-of-type {
@@ -548,14 +550,6 @@ ul{
   background-color: #f72210;
   color: white;
   margin-right: 7px;
-}
-
-h5 a {
-  font: bold 20px/26px 'Roboto Condensed', sans-serif;
-  line-height: 20px;
-  color: black;
-  text-decoration: none;
-  text-decoration-color: red;
 }
 
 .icon {
@@ -566,41 +560,11 @@ h5 a {
   margin-right: 10px;
 }
 
-.lk {
-  font-size: 18px;
-  font-weight: 700;
-  font-family: 'Roboto condensed', Arial, sans-serif;
-}
-
 .byline-option {
   color: #555;
   text-transform: uppercase;
   margin-top: 4px;
   font: bold 14px/21px 'Roboto Condensed', sans-serif;
-}
-
-.usa a,
-.t-badge a,
-.c-badge a,
-.h-badge a {
-  text-transform: uppercase;
-  text-decoration: none;
-  color: #f72210;
-  font-weight: bold;
-}
-
-.block-title,
-.block-title a {
-  font: bold 16px/16px 'Roboto Condensed', sans-serif;
-  text-transform: uppercase;
-  padding-bottom: 11px;
-  color: rgba(3, 3, 3, 0.4);
-  width: 100%;
-}
-
-.headsot img {
-  width: 63px;
-  height: 63px;
 }
 
 .h2 {
@@ -618,8 +582,6 @@ h5 a {
   border-radius: 3px;
   border: none;
   background: #ffe400;
-  height: 20px;
-  width: 91.15px;
   padding-bottom: 2px;
 }
 
@@ -629,15 +591,6 @@ h5 a {
   text-transform: uppercase;
   border: none;
   font-weight: 700;
-}
-
-
-
-.menu li a{
-  font-size: 14px;
-  font-weight: normal;
-  color: #666;
-  
 }
 
 .trial {
@@ -657,11 +610,6 @@ h5 a {
   height: 24px;
 }
 
-.m-item img {
-  width: 100%;
-  height: 50vh;
-}
-
 .location::after {
   content: url('../resources/white-arrow.svg');
   display: inline-block;
@@ -678,10 +626,6 @@ h5 a {
   height: 11px;
   margin-left: 9px;
 }
-.nav-bar a {
-  text-decoration: none;
-  color: black;
-}
 
 .temp,
 .location {
@@ -695,32 +639,26 @@ h5 a {
 .navigation {
   width: 100%;
 }
-.nav-bar {
-  width: 100%;
-}
-
-.search {
-  width: 20px;
-  height: 20px;
-}
 
 .input-search {
   position: relative;
 }
+
 .search {
   position: absolute;
   right: 0;
   top: 5px;
+  width: 20px;
+  height: 20px;
 }
 
 
-.us-img img{
-  width: 100%;
-}
 
-/*==================================================================*/
-/*custom media queries*/
-/*==================================================================*/
+/* ================================================================== */
+
+/* custom media queries */
+
+/* ================================================================== */
 @media (min-width: 992px) {
   body {
     background-color: #f4f5f6;
