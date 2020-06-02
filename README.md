@@ -1,4 +1,4 @@
-# Responsive Design
+# Bootstrap Project 
 
 > A clone of The Newsweek website.
 
