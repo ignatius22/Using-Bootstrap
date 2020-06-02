@@ -158,7 +158,7 @@ h5 a {
   color: white;
 }
 
-.menu li a {
+.menu li a ,.menu div a{
   font-size: 14px;
   font-weight: normal;
   color: #666;
@@ -182,6 +182,8 @@ h5 a {
 .title a:hover {
   color: red;
 }
+
+
 
 .lk {
   display: block;
@@ -340,6 +342,7 @@ h5 a {
   width: 100%;
 }
 
+
 .related li {
   list-style: none;
 }
@@ -453,7 +456,7 @@ h5 a {
 .bg {
   background-image: url('../resources/starting5-homepage.png');
   background-repeat: no-repeat;
-  background-size: 100% 61vh;
+  background-size: 100% 100%;
 }
 
 .con2,
