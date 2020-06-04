@@ -114,9 +114,6 @@ h5 a {
   margin: 6px auto;
 }
 
-
-
-
 .block-title--1 a {
   font-size: 23px;
   font-weight: bold;
@@ -173,8 +170,6 @@ h5 a {
   font: bold 16px/19px 'Roboto Condensed', sans-serif;
   color: rgba(3, 3, 3, 0.5);
 }
-
-
 
 .h5 a:hover {
   text-decoration: underline #f72210;
@@ -266,8 +261,6 @@ h5 a {
   width: 97%;
 }
 
-
-
 .image {
   width: 132px;
 }
@@ -304,8 +297,6 @@ h5 a {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
-
-
 .top-story-text-1 {
   width: 100%;
   font-size: 13px;
@@ -321,7 +312,7 @@ h5 a {
   border: none;
 }
 
-.gray img{
+.gray img {
   width: 170px;
   height: 220px;
 }
@@ -351,7 +342,6 @@ h5 a {
 
 .gray {
   background-color: #f4f5f6;
-
 }
 
 .pelcro-subscribe-button {
@@ -441,18 +431,14 @@ h5 a {
   border-radius: 3px;
 }
 
-
- .bg {
-
+.bg {
   background-image: url('../resources/starting5-homepage.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
-} 
+}
 
-
-
-
-.form-sign, .bg{
+.form-sign,
+.bg {
   width: 190px;
   height: 317px;
 }
@@ -637,8 +623,6 @@ ul {
   font-size: 14px;
 }
 
-
-
 .input-search {
   position: relative;
 }
@@ -665,38 +649,33 @@ ul {
     padding-top: 20px;
     padding-bottom: 12px;
   }
-  
 
-.main {
-  background-color: white;
-  width: 100%;
-}
-
+  .main {
+    background-color: white;
+    width: 100%;
+  }
 
   .navigation a {
-  text-decoration: none;
-  color: black;
-  font-weight: 700;
-  text-align: center;
-  width: 100%;
-  position: relative;
-  right: 8px;
-  
-}
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    right: 8px;
+  }
 
- .header-3::before{
-  position: absolute;
-  top: 90px;
-  right: 0;
-  content: '';
-  display: block;
-  width: 100px;
-  background-color: #f72210;
-  border-left: 12px solid white;
-  border-top: 13px solid #f72210;
-}
-
-
+  .header-3::before {
+    position: absolute;
+    top: 90px;
+    right: 0;
+    content: '';
+    display: block;
+    width: 100px;
+    background-color: #f72210;
+    border-left: 12px solid white;
+    border-top: 13px solid #f72210;
+  }
 }
 
 @media (min-width: 1198px) {
@@ -705,37 +684,32 @@ ul {
     width: 98%;
   }
 
-
   .navigation a {
-  text-decoration: none;
-  color: black;
-  font-weight: 700;
-  text-align: center;
-  width: 100%;
-  position: relative;
-  right: 20px;
-  
-}
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    right: 20px;
+  }
 
-.main {
-  background-color: white;
-  width: 98%;
-}
+  .main {
+    background-color: white;
+    width: 98%;
+  }
 
-
- .header-3::before{
-  position: absolute;
-  top: 90px;
-  right: 14px;
-  content: '';
-  display: block;
-  width: 100px;
-  background-color: #f72210;
-  border-left: 12px solid white;
-  border-top: 13px solid #f72210;
-} 
-
-
+  .header-3::before {
+    position: absolute;
+    top: 90px;
+    right: 14px;
+    content: '';
+    display: block;
+    width: 100px;
+    background-color: #f72210;
+    border-left: 12px solid white;
+    border-top: 13px solid #f72210;
+  }
 }
 
 /* @media (min-width: 1350px) {
