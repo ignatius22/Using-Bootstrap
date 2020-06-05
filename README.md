@@ -14,7 +14,7 @@ This page is a basic clone of The Newsweek website, this project has been an exe
 
 ## Live Demo
 
-Live link here: https://rawcdn.githack.com/ignatius22/Using-Bootstrap/c7d2c23cb42cb68e4743e8de2580eebfc017ae14/index.html
+Live link here: https://rawcdn.githack.com/ignatius22/Using-Bootstrap/41be50d777fb6a299d77b1b338db2c19141ffa5b/index.html
 
 
 ## Authors
