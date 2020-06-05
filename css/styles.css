@@ -635,6 +635,18 @@ ul {
   height: 20px;
 }
 
+.dual-image {
+  position: relative;
+}
+
+.previous {
+  position: absolute;
+  top: 13px;
+  left: 80px;
+  right: 0;
+}
+
+
 /* ================================================================== */
 
 /* custom media queries */
