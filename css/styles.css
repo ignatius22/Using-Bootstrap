@@ -171,11 +171,11 @@ h5 a {
   color: rgba(3, 3, 3, 0.5);
 }
 
-.info{
+.info {
   width: 100%;
 }
 
-.info p{
+.info p {
   font-size: 15px;
 }
 
@@ -325,10 +325,6 @@ h5 a {
   height: 200px;
 }
 
-.pelcro-subscribe-button {
-  
-}
-
 .picture img {
   width: 100%;
 }
@@ -357,7 +353,6 @@ h5 a {
 }
 
 .pelcro-subscribe-button {
-  
   font: bold 18px/18px 'Roboto Condensed', sans-serif;
   cursor: pointer;
   background-color: #f72310;
@@ -367,12 +362,6 @@ h5 a {
   padding: 10px 10px 10px 12px;
   border-radius: 3px;
 }
-
-.start5 .bg,.form-sign {
-  height: 39vh;
-}
-
-
 
 .picture {
   position: relative;
@@ -403,21 +392,19 @@ h5 a {
   color: #f72210;
 }
 
-.subscribe-block{ 
+.subscribe-block {
   line-height: 28px;
   font-size: 23px;
   color: black;
   font-weight: bold;
   width: 100%;
-
 }
-.subscribe-block2{
+
+.subscribe-block2 {
   font-size: 17px;
   font-weight: 700;
   height: auto;
 }
-
-
 
 .newsletter {
   max-width: 300px;
@@ -463,6 +450,10 @@ h5 a {
   background-size: 100% 100%;
 }
 
+.start5 .bg,
+.form-sign {
+  height: 39vh;
+}
 
 .con2,
 .menu {
@@ -726,7 +717,6 @@ ul {
     right: 20px;
   }
 
-
   .main {
     background-color: white;
     width: 98%;
@@ -744,8 +734,3 @@ ul {
     border-top: 13px solid #f72210;
   }
 }
-
-@media (min-width: 576px) { 
- 
-
- }
